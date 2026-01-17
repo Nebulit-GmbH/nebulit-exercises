@@ -23,10 +23,10 @@ const Index = () => {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
-              <span className="text-primary">✓</span> 10 Hands-On Exercises
+              <span className="text-primary">✓</span> Hands-On Exercises
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-primary">✓</span> TypeScript Examples
+              <span className="text-primary">✓</span> Kotlin Examples
             </span>
             <span className="flex items-center gap-2">
               <span className="text-primary">✓</span> Production Patterns
