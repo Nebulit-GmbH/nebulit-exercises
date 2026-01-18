@@ -1,4 +1,4 @@
-# Exercise 9: Multi Aggregate Decisions
+# Exercise 9: GDPR
 
 ## Objective
 
