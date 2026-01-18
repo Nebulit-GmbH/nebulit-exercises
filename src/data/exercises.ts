@@ -5,6 +5,7 @@ import exercise03 from '@/content/exercises/04-eventual-consistency.md?raw';
 import exercise04 from '@/content/exercises/05-cqrs.md?raw';
 import exercise05 from '@/content/exercises/06-todo-lists.md?raw';
 import exercise06 from '@/content/exercises/07-todo-lists-event-processing.md?raw';
+import exercise07 from '@/content/exercises/08-replaying.md?raw';
 
 export interface Exercise {
   id: number;
@@ -63,5 +64,12 @@ export const exercises: Exercise[] = [
         emoji: "📊",
         description: "Build a simple TODO List as Event Processor",
         content: exercise06,
+    },
+    {
+        id: 7,
+        title: "Replaying Events",
+        emoji: "📊",
+        description: "Learn how to safely replay events",
+        content: exercise07,
     }
 ];
