@@ -19,7 +19,7 @@ Claude Code a try using the provided skills.
 You can use this prompt
 
 ```
-Implement the catalgitems slice using cour state view slice skill
+Implement the catalog items slice using our state view slice skill
 ```
 
 ## Implementation

@@ -1,4 +1,4 @@
-# Exercise 4: Eventutal Consistency
+# Exercise 4: Eventual Consistency
 
 ## Objective
 

@@ -6,6 +6,8 @@ import exercise04 from '@/content/exercises/05-cqrs.md?raw';
 import exercise05 from '@/content/exercises/06-todo-lists.md?raw';
 import exercise06 from '@/content/exercises/07-todo-lists-event-processing.md?raw';
 import exercise07 from '@/content/exercises/08-replaying.md?raw';
+import exercise08 from '@/content/exercises/09-metadata.md?raw';
+import exercise09 from '@/content/exercises/10-gdpr.md?raw';
 
 export interface Exercise {
   id: number;
@@ -54,22 +56,36 @@ export const exercises: Exercise[] = [
   {
     id: 5,
     title: "TODO Lists",
-    emoji: "📊",
+    emoji: "✅",
     description: "Build a simple TODO List",
     content: exercise05,
   },
+  {
+    id: 6,
+    title: "TODO Lists as Event Processors",
+    emoji: "⚙️",
+    description: "Build a simple TODO List as Event Processor",
+    content: exercise06,
+  },
+  {
+    id: 7,
+    title: "Replaying Events",
+    emoji: "⏪",
+    description: "Learn how to safely replay events",
+    content: exercise07,
+  },
+  {
+    id: 8,
+    title: "Meta Data",
+    emoji: "🏷️",
+    description: "Learn how to handle Meta Data",
+    content: exercise08,
+  },
     {
-        id: 6,
-        title: "TODO Lists as Event Processors",
-        emoji: "📊",
-        description: "Build a simple TODO List as Event Processor",
-        content: exercise06,
-    },
-    {
-        id: 7,
-        title: "Replaying Events",
-        emoji: "📊",
-        description: "Learn how to safely replay events",
-        content: exercise07,
+        id: 9,
+        title: "GDPR",
+        emoji: "🏷️",
+        description: "See Crypto Shredding in action",
+        content: exercise09,
     }
 ];

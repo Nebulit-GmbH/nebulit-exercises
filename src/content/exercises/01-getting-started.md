@@ -2,7 +2,8 @@
 
 ## Objective
 
-Build a first State Change Slice.
+- Have a reference of all Repositories and Exercises. 
+- Have a Link to all sites
 
 ## Key Concepts
 
