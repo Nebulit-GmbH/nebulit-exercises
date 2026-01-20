@@ -86,10 +86,3 @@ Wait 15 seconds, and you´ll see the notification that automatically refreshes a
 ![Client Notifications](/4/2.png)
 
 The implementation uses Server Sent Events in the Background.
-
-
-## Tasks
-
-1. Create a `BankAccount` aggregate with deposit/withdraw
-2. Implement event application
-3. Add business rule validation
